@@ -24,6 +24,12 @@
 /Users/samiehsadeghi/.nuget/packages/xamarin.forms/4.8.0.1560/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
 /Users/samiehsadeghi/Documents/xamarin/test/test/bin/Debug/netstandard2.0/test.dll
 /Users/samiehsadeghi/.nuget/packages/xamarin.forms/4.8.0.1560/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
+/Users/samiehsadeghi/.nuget/packages/sqlite-net-pcl/1.7.335/lib/netstandard2.0/SQLite-net.dll
+/Users/samiehsadeghi/.nuget/packages/sqlitepclraw.core/2.0.3/lib/netstandard2.0/SQLitePCLRaw.core.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/14.2.0.12/lib/mono/Xamarin.iOS/Facades/System.Memory.dll
+/Users/samiehsadeghi/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll
+/Users/samiehsadeghi/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/lib/Xamarin.iOS10/SQLitePCLRaw.nativelibrary.dll
+/Users/samiehsadeghi/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3/lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
 /Users/samiehsadeghi/.nuget/packages/newtonsoft.json/12.0.3/lib/netstandard2.0/Newtonsoft.Json.dll
 /Users/samiehsadeghi/.nuget/packages/xamarin.essentials/1.5.3.2/lib/xamarinios10/Xamarin.Essentials.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/14.2.0.12/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
