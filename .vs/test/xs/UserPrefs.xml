@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{75109D4C-7C3D-44F4-B25C-35AAE16DBB97}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="test/Models/City.cs">
+    <Files>
+      <File FileName="test/ViewModels/ManageCitiesViewModel.cs" Line="10" Column="47" />
+      <File FileName="test/ViewModels/WeatherViewModel.cs" />
+      <File FileName="test/Views/MainPage.xaml.cs" />
+      <File FileName="test/Models/WeatherData.cs" />
+      <File FileName="test/Models/RestService.cs" />
+      <File FileName="test/Views/ManageCitiesPage.xaml.cs" Line="36" Column="9" />
+      <File FileName="test/Models/City.cs" Line="16" Column="1" />
+      <File FileName="test/Views/ManageCitiesPage.xaml" />
+      <File FileName="test/Views/SearchViewPage.xaml" />
+      <File FileName="test/Views/SearchViewPage.xaml.cs" />
+      <File FileName="test/Constants.cs" />
+      <File FileName="test/App.xaml.cs" />
+      <File FileName="test/Views/MainPage.xaml" />
+      <File FileName="test/obj/Debug/netstandard2.0/Views/SearchViewPage.xaml.g.cs" />
+      <File FileName="test/ViewModels/SearchViewModel.cs" />
+      <File FileName="test/test.csproj" />
+      <File FileName="test/AssemblyInfo.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="test" expanded="True">
+            <Node name="test" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="City.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="MainPage.xaml" expanded="True" />
+                <Node name="ManageCitiesPage.xaml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.test.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A78B3F83-AED7-4649-9131-CCBA5F838F25" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.test.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

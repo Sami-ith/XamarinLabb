@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="test.Views.ManageCitiesPage">
+    <ContentPage.Content>
+        <StackLayout>
+        <ListView x:Name="Cities"
+            HasUnevenRows="true"
+            ItemsSource="{Binding Cities}"
+            ItemTapped="OnListViewItemTapped"
+            ItemSelected="OnListViewItemSelected"
+      >
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+            <Grid Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.RowSpan="2"
+                           Source="{Binding ImageUrl}"
+                           Aspect="AspectFill"
+                           HeightRequest="60"
+                           WidthRequest="60" />
+                    <Label Grid.Column="1"
+                           Text="{Binding Name}"
+                           FontAttributes="Bold" />
+                     <Label Grid.Row="1"
+                           Grid.Column="1"
+                           Text="{Binding Temp}"
+                           VerticalOptions="End" />
+
+                    
+                </Grid>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+            <Button FontSize="Title" Text="+" Clicked="plusButtonClick" />
+            </StackLayout>
+         
+    </ContentPage.Content>
+        
+   
+</ContentPage>
