@@ -31,7 +31,8 @@ namespace test.Views
             City tappedItem = e.Item as City;
             string Cname = tappedItem.Name.ToString();
             Preferences.Set("CurrentCity",value:Cname);
-            Navigation.PushAsync(new MainPage());
+            //Navigation.PushAsync(new MainPage());
+            Application.Current.MainPage.Navigation.PopAsync();
         }
         
     }

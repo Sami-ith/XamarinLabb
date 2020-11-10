@@ -6,7 +6,7 @@
       <File FileName="test/Views/MainPage.xaml.cs" />
       <File FileName="test/Models/WeatherData.cs" />
       <File FileName="test/Models/RestService.cs" />
-      <File FileName="test/Views/ManageCitiesPage.xaml.cs" Line="36" Column="9" />
+      <File FileName="test/Views/ManageCitiesPage.xaml.cs" />
       <File FileName="test/Models/City.cs" Line="16" Column="1" />
       <File FileName="test/Views/ManageCitiesPage.xaml" />
       <File FileName="test/Views/SearchViewPage.xaml" />
@@ -23,15 +23,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="test" expanded="True">
-            <Node name="test" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="City.cs" selected="True" />
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="MainPage.xaml" expanded="True" />
-                <Node name="ManageCitiesPage.xaml" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="test" expanded="True" />
           </Node>
         </State>
       </Pad>
