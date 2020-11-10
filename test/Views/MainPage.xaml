@@ -12,12 +12,19 @@
                  Priority="0" />
     </ContentPage.ToolbarItems>
    
-              <StackLayout Orientation="Horizontal">
-                  <Label Text="{Binding Title}" />
-                  <Label Text="{Binding Main.Temperature}" />
-                  <Label Text="{Binding Weather[0].Visibility}"/>
-                  <Label Text="{Binding Main.Humidity}"/>
-                  <Image HeightRequest="50" WidthRequest="50" Source="{Binding Weather[0].Icon}"/>
+              <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                 <Label Text="{Binding Title}"
+                         FontSize="Title" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" FontAttributes="Bold" />
+                  <Label Text="{Binding Main.Temperature}" Margin="10, 15" VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center" />
+                  <Label Text="{Binding Weather[0].Visibility}" VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"/>
+                  <Label Text="{Binding Main.Humidity}" VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"/>
+                  <Image HeightRequest="70" WidthRequest="70" Source="{Binding Weather[0].Icon}" /> 
+                  
               </StackLayout>
           
 </ContentPage>
+
+

@@ -35,6 +35,7 @@ namespace test.ViewModels
            
            var weatherData = await _restService.GetWeatherDataAsync(GenerateRequestUri(Constants.OpenWeatherMapEndpoint));
             weatherData.Weather[0].Icon = "https://openweathermap.org/img/w/" + weatherData.Weather[0].Icon + ".png";
+            
            // current = weatherData;
             return weatherData;
             
