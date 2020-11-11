@@ -14,3 +14,14 @@
 /Users/samiehsadeghi/Documents/xamarin/test/test/obj/Debug/netstandard2.0/ref/test.dll
 /Users/samiehsadeghi/Documents/xamarin/test/test/obj/Debug/netstandard2.0/test.pdb
 /Users/samiehsadeghi/Documents/xamarin/test/test/obj/Debug/netstandard2.0/test.csprojAssemblyReference.cache
+/Users/kristoffer/Downloads/XamarinLabb/test/obj/Debug/netstandard2.0/test.csprojAssemblyReference.cache
+/Users/kristoffer/Downloads/XamarinLabb/test/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/kristoffer/Downloads/XamarinLabb/test/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/kristoffer/Downloads/XamarinLabb/test/obj/Debug/netstandard2.0/Views/ManageCitiesPage.xaml.g.cs
+/Users/kristoffer/Downloads/XamarinLabb/test/obj/Debug/netstandard2.0/Views/SearchViewPage.xaml.g.cs
+/Users/kristoffer/Downloads/XamarinLabb/test/obj/Debug/netstandard2.0/test.AssemblyInfoInputs.cache
+/Users/kristoffer/Downloads/XamarinLabb/test/obj/Debug/netstandard2.0/test.AssemblyInfo.cs
+/Users/kristoffer/Downloads/XamarinLabb/test/obj/Debug/netstandard2.0/test.csproj.CoreCompileInputs.cache
+/Users/kristoffer/Downloads/XamarinLabb/test/obj/Debug/netstandard2.0/test.dll
+/Users/kristoffer/Downloads/XamarinLabb/test/obj/Debug/netstandard2.0/ref/test.dll
+/Users/kristoffer/Downloads/XamarinLabb/test/obj/Debug/netstandard2.0/test.pdb
