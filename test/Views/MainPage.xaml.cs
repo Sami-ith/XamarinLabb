@@ -19,10 +19,10 @@ namespace test
         public MainPage()
         {
             InitializeComponent();
-            Preferences.Set("CurrentCity", value: "London");
+            // Preferences.Set("CurrentCity", value: "London");
             //Preferences.Get("my_key", "default_value");
-
-            currentWeather = new WeatherViewModel().current;
+            var CurrentCity=Preferences.Get("CurrentCity", "Stockholm");
+            currentWeather = new WeatherViewModel(CurrentCity).current;
             BindingContext = currentWeather;
 
         }

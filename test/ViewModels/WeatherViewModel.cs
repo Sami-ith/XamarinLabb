@@ -12,14 +12,11 @@ namespace test.ViewModels
     {
         RestService _restService;
         public WeatherData current { get; set; }
-        public string CurrentCity
+        public string CurrentCity { get; set; }
+       
+        public WeatherViewModel(string cityName)
         {
-            get { return Preferences.Get("CurrentCity", "Stockholm"); ; }   
-            set {; } 
-
-        }
-        public WeatherViewModel()
-        {
+            CurrentCity = cityName;
             _restService = new RestService();
             current = new WeatherData();
             Task<WeatherData> task = Task.Run(GetData);
