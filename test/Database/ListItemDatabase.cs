@@ -68,3 +68,13 @@ namespace List
     }
 }
 
+/*
+var saveButton = new Button { Text = "Save" };
+saveButton.Clicked += async (sender, e) =>
+{
+    var todoItem = (TodoItem)BindingContext;
+    await App.Database.SaveItemAsync(todoItem);
+    await Navigation.PopAsync();
+};
+ * 
+ */
