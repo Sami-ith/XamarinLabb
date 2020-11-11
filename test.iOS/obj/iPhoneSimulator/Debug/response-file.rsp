@@ -2,17 +2,17 @@
 --sgen-conc
 /target-framework:Xamarin.iOS,Version=v1.0
 --http-message-handler=NSUrlSessionHandler
---cache=/Users/samiehsadeghi/Documents/xamarin/test/test.iOS/obj/iPhoneSimulator/Debug/mtouch-cache
---root-assembly=/Users/samiehsadeghi/Documents/xamarin/test/test.iOS/bin/iPhoneSimulator/Debug/test.iOS.exe
+--cache=/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.iOS/obj/iPhoneSimulator/Debug/mtouch-cache
+--root-assembly=/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.iOS/bin/iPhoneSimulator/Debug/test.iOS.exe
 --sdkroot=/Applications/Xcode.app/Contents/Developer
---sim=/Users/samiehsadeghi/Documents/xamarin/test/test.iOS/bin/iPhoneSimulator/Debug/test.iOS.app
+--sim=/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.iOS/bin/iPhoneSimulator/Debug/test.iOS.app
 --executable=test.iOS
 --nolink
 --sdk=14.1
 --targetver=8.0
 --aot-options=-O=-float32
 --abi=x86_64
---symbollist=/Users/samiehsadeghi/Documents/xamarin/test/test.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list
+--symbollist=/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list
 --dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
@@ -21,7 +21,7 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.Vectors.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
--r=/Users/samiehsadeghi/Documents/xamarin/test/test/bin/Debug/netstandard2.0/test.dll
+-r=/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test/bin/Debug/netstandard2.0/test.dll
 -r=/Users/samiehsadeghi/.nuget/packages/xamarin.forms/4.8.0.1560/buildTransitive/XCODE11/Xamarin.Forms.Platform.iOS.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll
@@ -168,6 +168,7 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll
 -r=/Users/samiehsadeghi/.nuget/packages/newtonsoft.json/12.0.3/lib/netstandard2.0/Newtonsoft.Json.dll
+-r=/Users/samiehsadeghi/.nuget/packages/propertychanged.fody/3.3.1/lib/netstandard2.0/PropertyChanged.dll
 -r=/Users/samiehsadeghi/.nuget/packages/sqlite-net-pcl/1.7.335/lib/netstandard2.0/SQLite-net.dll
 -r=/Users/samiehsadeghi/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll
 -r=/Users/samiehsadeghi/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/lib/Xamarin.iOS10/SQLitePCLRaw.nativelibrary.dll
@@ -212,5 +213,5 @@
 -r=/Users/samiehsadeghi/.nuget/packages/xamarin.forms/4.8.0.1560/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/samiehsadeghi/.nuget/packages/xamarin.forms/4.8.0.1560/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/samiehsadeghi/.nuget/packages/xamarin.forms/4.8.0.1560/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
--r=/Users/samiehsadeghi/Documents/xamarin/test/test/bin/Debug/netstandard2.0/test.dll
+-r=/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test/bin/Debug/netstandard2.0/test.dll
 -r=/Users/samiehsadeghi/.nuget/packages/xamarin.forms/4.8.0.1560/buildTransitive/XCODE11/Xamarin.Forms.Platform.iOS.dll

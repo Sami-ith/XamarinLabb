@@ -9,6 +9,7 @@ using test.ViewModels;
 using test.Models;
 using test.Views;
 using Xamarin.Essentials;
+using System.Runtime.CompilerServices;
 
 namespace test
 {
@@ -16,19 +17,34 @@ namespace test
     {
         
         WeatherData currentWeather;
+        string CurrentCity;
         public MainPage()
         {
             InitializeComponent();
             // Preferences.Set("CurrentCity", value: "London");
             //Preferences.Get("my_key", "default_value");
-            var CurrentCity=Preferences.Get("CurrentCity", "Stockholm");
-            currentWeather = new WeatherViewModel(CurrentCity).current;
+            
+            CurrentCity =Preferences.Get("CurrentCity", "Stockholm");
+            
+            currentWeather = new WeatherViewModel(CurrentCity).Current;
+           
             BindingContext = currentWeather;
 
         }
-       
 
-         public void ToolbarItem_Clicked(object sender, EventArgs e)
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            CurrentCity = Preferences.Get("CurrentCity", "Stockholm");
+
+            currentWeather = new WeatherViewModel(CurrentCity).Current;
+
+            BindingContext = currentWeather;
+
+        }
+
+
+        public void ToolbarItem_Clicked(object sender, EventArgs e)
         {
 
              Navigation.PushAsync(new ManageCitiesPage());

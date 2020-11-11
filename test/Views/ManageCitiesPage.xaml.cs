@@ -32,7 +32,7 @@ namespace test.Views
             string Cname = tappedItem.Name.ToString();
             Preferences.Set("CurrentCity",value:Cname);
             //Navigation.PushAsync(new MainPage());
-            Application.Current.MainPage.Navigation.PopAsync();
+            Application.Current.MainPage.Navigation.PopAsync(true);
         }
         
     }

@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kristoffer/Downloads/XamarinLabb/test.iOS/test.iOS.csproj": {}
+    "/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.iOS/test.iOS.csproj": {}
   },
   "projects": {
-    "/Users/kristoffer/Downloads/XamarinLabb/test.iOS/test.iOS.csproj": {
+    "/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.iOS/test.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kristoffer/Downloads/XamarinLabb/test.iOS/test.iOS.csproj",
+        "projectUniqueName": "/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.iOS/test.iOS.csproj",
         "projectName": "test.iOS",
-        "projectPath": "/Users/kristoffer/Downloads/XamarinLabb/test.iOS/test.iOS.csproj",
-        "packagesPath": "/Users/kristoffer/.nuget/packages/",
-        "outputPath": "/Users/kristoffer/Downloads/XamarinLabb/test.iOS/obj/",
+        "projectPath": "/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.iOS/test.iOS.csproj",
+        "packagesPath": "/Users/samiehsadeghi/.nuget/packages/",
+        "outputPath": "/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/kristoffer/.nuget/NuGet/NuGet.Config"
+          "/Users/samiehsadeghi/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
@@ -26,8 +26,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/kristoffer/Downloads/XamarinLabb/test/test.csproj": {
-                "projectPath": "/Users/kristoffer/Downloads/XamarinLabb/test/test.csproj"
+              "/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test/test.csproj": {
+                "projectPath": "/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test/test.csproj"
               }
             }
           }
@@ -59,17 +59,17 @@
         }
       }
     },
-    "/Users/kristoffer/Downloads/XamarinLabb/test/test.csproj": {
+    "/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test/test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kristoffer/Downloads/XamarinLabb/test/test.csproj",
+        "projectUniqueName": "/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test/test.csproj",
         "projectName": "test",
-        "projectPath": "/Users/kristoffer/Downloads/XamarinLabb/test/test.csproj",
-        "packagesPath": "/Users/kristoffer/.nuget/packages/",
-        "outputPath": "/Users/kristoffer/Downloads/XamarinLabb/test/obj/",
+        "projectPath": "/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test/test.csproj",
+        "packagesPath": "/Users/samiehsadeghi/.nuget/packages/",
+        "outputPath": "/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kristoffer/.nuget/NuGet/NuGet.Config"
+          "/Users/samiehsadeghi/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -101,6 +101,10 @@
               "target": "Package",
               "version": "[12.0.3, )"
             },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.0-pre3, )"
@@ -124,7 +128,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     }

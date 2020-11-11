@@ -1,19 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "ZME1nt1nMmHx2WH9lxxcOrr3GJf83kVXPtRW33Mw3PEmzFf62l9VTB1NyfuZfI6uJvDohrMr2OD12PDb1DWRNw==",
+  "dgSpecHash": "jNK0tzbuDEXeYT+klQNc4vNqMtYEIMK920C/9dLjXNckK3yXMnuSJhoPjE4yi9Dma8J1EbXr+pHFjRYG0CBgPw==",
   "success": true,
-  "projectFilePath": "/Users/kristoffer/Downloads/XamarinLabb/test.iOS/test.iOS.csproj",
+  "projectFilePath": "/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.iOS/test.iOS.csproj",
   "expectedPackageFiles": [
-    "/Users/kristoffer/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
-    "/Users/kristoffer/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
-    "/Users/kristoffer/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
-    "/Users/kristoffer/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",
-    "/Users/kristoffer/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3/sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
-    "/Users/kristoffer/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
-    "/Users/kristoffer/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/Users/kristoffer/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-    "/Users/kristoffer/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/kristoffer/.nuget/packages/xamarin.forms/4.8.0.1560/xamarin.forms.4.8.0.1560.nupkg.sha512"
+    "/Users/samiehsadeghi/.nuget/packages/fody/6.3.0/fody.6.3.0.nupkg.sha512",
+    "/Users/samiehsadeghi/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/samiehsadeghi/.nuget/packages/propertychanged.fody/3.3.1/propertychanged.fody.3.3.1.nupkg.sha512",
+    "/Users/samiehsadeghi/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "/Users/samiehsadeghi/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "/Users/samiehsadeghi/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "/Users/samiehsadeghi/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3/sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "/Users/samiehsadeghi/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/samiehsadeghi/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/samiehsadeghi/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/samiehsadeghi/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/samiehsadeghi/.nuget/packages/xamarin.forms/4.8.0.1560/xamarin.forms.4.8.0.1560.nupkg.sha512"
   ],
   "logs": [
     {
