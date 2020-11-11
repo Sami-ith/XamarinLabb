@@ -1,19 +1,33 @@
 {
   "version": 2,
-  "dgSpecHash": "AtELMlb7pGdzW36V/SEbdJJHa+BXSoRt+i9jb3Wx52RIUu8s8OYfKS15W+4xxRZSytlW/G/MeYLNnSjEHqGEBw==",
+  "dgSpecHash": "ZME1nt1nMmHx2WH9lxxcOrr3GJf83kVXPtRW33Mw3PEmzFf62l9VTB1NyfuZfI6uJvDohrMr2OD12PDb1DWRNw==",
   "success": true,
-  "projectFilePath": "/Users/samiehsadeghi/Documents/xamarin/test/test.iOS/test.iOS.csproj",
+  "projectFilePath": "/Users/kristoffer/Downloads/XamarinLabb/test.iOS/test.iOS.csproj",
   "expectedPackageFiles": [
-    "/Users/samiehsadeghi/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
-    "/Users/samiehsadeghi/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
-    "/Users/samiehsadeghi/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
-    "/Users/samiehsadeghi/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",
-    "/Users/samiehsadeghi/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3/sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
-    "/Users/samiehsadeghi/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
-    "/Users/samiehsadeghi/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/Users/samiehsadeghi/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-    "/Users/samiehsadeghi/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/samiehsadeghi/.nuget/packages/xamarin.forms/4.8.0.1560/xamarin.forms.4.8.0.1560.nupkg.sha512"
+    "/Users/kristoffer/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/kristoffer/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "/Users/kristoffer/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "/Users/kristoffer/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "/Users/kristoffer/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3/sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "/Users/kristoffer/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/kristoffer/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/kristoffer/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/kristoffer/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/kristoffer/.nuget/packages/xamarin.forms/4.8.0.1560/xamarin.forms.4.8.0.1560.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.6.0-pre3 to 1.5.3.2. Reference the package directly from the project to select a different version. \n test.iOS -> test -> Xamarin.Essentials (>= 1.6.0-pre3) \n test.iOS -> Xamarin.Essentials (>= 1.5.3.2)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/samiehsadeghi/Documents/xamarin/test/test.Android/test.Android.csproj": {}
+    "/Users/kristoffer/Downloads/XamarinLabb/test.Android/test.Android.csproj": {}
   },
   "projects": {
-    "/Users/samiehsadeghi/Documents/xamarin/test/test.Android/test.Android.csproj": {
+    "/Users/kristoffer/Downloads/XamarinLabb/test.Android/test.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/samiehsadeghi/Documents/xamarin/test/test.Android/test.Android.csproj",
+        "projectUniqueName": "/Users/kristoffer/Downloads/XamarinLabb/test.Android/test.Android.csproj",
         "projectName": "test.Android",
-        "projectPath": "/Users/samiehsadeghi/Documents/xamarin/test/test.Android/test.Android.csproj",
-        "packagesPath": "/Users/samiehsadeghi/.nuget/packages/",
-        "outputPath": "/Users/samiehsadeghi/Documents/xamarin/test/test.Android/obj/",
+        "projectPath": "/Users/kristoffer/Downloads/XamarinLabb/test.Android/test.Android.csproj",
+        "packagesPath": "/Users/kristoffer/.nuget/packages/",
+        "outputPath": "/Users/kristoffer/Downloads/XamarinLabb/test.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/samiehsadeghi/.config/NuGet/NuGet.Config"
+          "/Users/kristoffer/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/samiehsadeghi/Documents/xamarin/test/test/test.csproj": {
-                "projectPath": "/Users/samiehsadeghi/Documents/xamarin/test/test/test.csproj"
+              "/Users/kristoffer/Downloads/XamarinLabb/test/test.csproj": {
+                "projectPath": "/Users/kristoffer/Downloads/XamarinLabb/test/test.csproj"
               }
             }
           }
@@ -48,17 +48,17 @@
         }
       }
     },
-    "/Users/samiehsadeghi/Documents/xamarin/test/test/test.csproj": {
+    "/Users/kristoffer/Downloads/XamarinLabb/test/test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/samiehsadeghi/Documents/xamarin/test/test/test.csproj",
+        "projectUniqueName": "/Users/kristoffer/Downloads/XamarinLabb/test/test.csproj",
         "projectName": "test",
-        "projectPath": "/Users/samiehsadeghi/Documents/xamarin/test/test/test.csproj",
-        "packagesPath": "/Users/samiehsadeghi/.nuget/packages/",
-        "outputPath": "/Users/samiehsadeghi/Documents/xamarin/test/test/obj/",
+        "projectPath": "/Users/kristoffer/Downloads/XamarinLabb/test/test.csproj",
+        "packagesPath": "/Users/kristoffer/.nuget/packages/",
+        "outputPath": "/Users/kristoffer/Downloads/XamarinLabb/test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/samiehsadeghi/.config/NuGet/NuGet.Config"
+          "/Users/kristoffer/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -92,7 +92,7 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.5.3.2, )"
+              "version": "[1.6.0-pre3, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
@@ -113,7 +113,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
         }
       }
     }

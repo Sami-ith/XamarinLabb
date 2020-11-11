@@ -4,7 +4,7 @@ using System.IO;
 namespace List { 
 public static class Constants
 {
-    public const string DatabaseFilename = "FILENAME.DB";
+    public const string DatabaseFilename = "database.db";
 
     public const SQLite.SQLiteOpenFlags Flags =
         // open the database in read/write mode

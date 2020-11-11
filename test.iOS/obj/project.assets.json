@@ -232,7 +232,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Essentials": "1.6.0-pre3",
           "Xamarin.Forms": "4.8.0.1560",
           "sqlite-net-pcl": "1.7.335"
         },
@@ -475,7 +475,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Essentials": "1.6.0-pre3",
           "Xamarin.Forms": "4.8.0.1560",
           "sqlite-net-pcl": "1.7.335"
         },
@@ -718,7 +718,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Essentials": "1.6.0-pre3",
           "Xamarin.Forms": "4.8.0.1560",
           "sqlite-net-pcl": "1.7.335"
         },
@@ -961,7 +961,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Essentials": "1.6.0-pre3",
           "Xamarin.Forms": "4.8.0.1560",
           "sqlite-net-pcl": "1.7.335"
         },
@@ -1511,20 +1511,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/samiehsadeghi/.nuget/packages/": {}
+    "/Users/kristoffer/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/samiehsadeghi/Documents/xamarin/test/test.iOS/test.iOS.csproj",
+      "projectUniqueName": "/Users/kristoffer/Downloads/XamarinLabb/test.iOS/test.iOS.csproj",
       "projectName": "test.iOS",
-      "projectPath": "/Users/samiehsadeghi/Documents/xamarin/test/test.iOS/test.iOS.csproj",
-      "packagesPath": "/Users/samiehsadeghi/.nuget/packages/",
-      "outputPath": "/Users/samiehsadeghi/Documents/xamarin/test/test.iOS/obj/",
+      "projectPath": "/Users/kristoffer/Downloads/XamarinLabb/test.iOS/test.iOS.csproj",
+      "packagesPath": "/Users/kristoffer/.nuget/packages/",
+      "outputPath": "/Users/kristoffer/Downloads/XamarinLabb/test.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/samiehsadeghi/.config/NuGet/NuGet.Config"
+        "/Users/kristoffer/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -1535,8 +1535,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/samiehsadeghi/Documents/xamarin/test/test/test.csproj": {
-              "projectPath": "/Users/samiehsadeghi/Documents/xamarin/test/test/test.csproj"
+            "/Users/kristoffer/Downloads/XamarinLabb/test/test.csproj": {
+              "projectPath": "/Users/kristoffer/Downloads/XamarinLabb/test/test.csproj"
             }
           }
         }
@@ -1567,5 +1567,20 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.6.0-pre3 to 1.5.3.2. Reference the package directly from the project to select a different version. \n test.iOS -> test -> Xamarin.Essentials (>= 1.6.0-pre3) \n test.iOS -> Xamarin.Essentials (>= 1.5.3.2)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

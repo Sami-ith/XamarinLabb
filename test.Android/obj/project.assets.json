@@ -891,7 +891,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Essentials": "1.6.0-pre3",
           "Xamarin.Forms": "4.8.0.1560",
           "sqlite-net-pcl": "1.7.335"
         },
@@ -2208,20 +2208,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/samiehsadeghi/.nuget/packages/": {}
+    "/Users/kristoffer/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/samiehsadeghi/Documents/xamarin/test/test.Android/test.Android.csproj",
+      "projectUniqueName": "/Users/kristoffer/Downloads/XamarinLabb/test.Android/test.Android.csproj",
       "projectName": "test.Android",
-      "projectPath": "/Users/samiehsadeghi/Documents/xamarin/test/test.Android/test.Android.csproj",
-      "packagesPath": "/Users/samiehsadeghi/.nuget/packages/",
-      "outputPath": "/Users/samiehsadeghi/Documents/xamarin/test/test.Android/obj/",
+      "projectPath": "/Users/kristoffer/Downloads/XamarinLabb/test.Android/test.Android.csproj",
+      "packagesPath": "/Users/kristoffer/.nuget/packages/",
+      "outputPath": "/Users/kristoffer/Downloads/XamarinLabb/test.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/samiehsadeghi/.config/NuGet/NuGet.Config"
+        "/Users/kristoffer/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
@@ -2232,8 +2232,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/samiehsadeghi/Documents/xamarin/test/test/test.csproj": {
-              "projectPath": "/Users/samiehsadeghi/Documents/xamarin/test/test/test.csproj"
+            "/Users/kristoffer/Downloads/XamarinLabb/test/test.csproj": {
+              "projectPath": "/Users/kristoffer/Downloads/XamarinLabb/test/test.csproj"
             }
           }
         }
@@ -2253,5 +2253,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.6.0-pre3 to 1.5.3.2. Reference the package directly from the project to select a different version. \n test.Android -> test -> Xamarin.Essentials (>= 1.6.0-pre3) \n test.Android -> Xamarin.Essentials (>= 1.5.3.2)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
 }
