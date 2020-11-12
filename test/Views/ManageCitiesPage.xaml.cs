@@ -13,15 +13,13 @@ namespace test.Views
         public ManageCitiesPage()
         {
             InitializeComponent();
-            manageCitiesList = new ManageCitiesViewModel().Cities;
-            BindingContext = manageCitiesList;
+            BindingContext = new ManageCitiesViewModel();
+            
         }
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            manageCitiesList = new ManageCitiesViewModel().Cities;
-            BindingContext = manageCitiesList;
-
+           
         }
         public void plusButtonClick(object sender, EventArgs e)
         {

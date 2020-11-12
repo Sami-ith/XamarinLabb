@@ -16,28 +16,32 @@ namespace test.ViewModels
         public  ManageCitiesViewModel()
             {
             Cities = new List<City>();
-            //var task = Task.Run(App.Database.GetItemsAsync);
-            //myList = task.Result;
-            //foreach(ListItem c in myList)
+            var task = Task.Run(App.Database.GetItemsAsync);
+            myList = task.Result;
+            foreach (ListItem c in myList)
+            {
+                Cities.Add(new City { Name = c.City,
+                    ImageUrl = "https://openweathermap.org/img/wn/10d.png",
+                    Temp = 12
+
+                });
+
+            }
+            //Cities.Add(new City
             //{
-            //    Cities.Add(new City { Name = c.City.ToString() });
+            //    Name = "Göteborg",
+            //    ImageUrl = "https://openweathermap.org/img/wn/10d.png",
+            //    Temp = 12
 
-            //}
-            Cities.Add(new City
-            {
-                Name = "Göteborg",
-                ImageUrl = "https://openweathermap.org/img/wn/10d.png",
-                Temp = 12
+            //}); ;
 
-            }); ;
+            //Cities.Add(new City
+            //{
+            //    Name = "Stockholm",
+            //    ImageUrl = "https://openweathermap.org/img/wn/10d.png",
+            //    Temp = 13
 
-            Cities.Add(new City
-            {
-                Name = "Stockholm",
-                ImageUrl = "https://openweathermap.org/img/wn/10d.png",
-                Temp = 13
-
-            });
+            //});
 
         }
         

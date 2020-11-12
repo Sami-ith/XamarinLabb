@@ -4,7 +4,7 @@
         <StackLayout>
         <ListView x:Name="Cities"
             HasUnevenRows="true"
-            ItemsSource="{Binding manageCitiesList}"
+            ItemsSource="{Binding Cities}"
             ItemTapped="OnListViewItemTapped"
             ItemSelected="OnListViewItemSelected"
       >
