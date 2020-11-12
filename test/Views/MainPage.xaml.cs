@@ -26,7 +26,7 @@ namespace test
             
             CurrentCity =Preferences.Get("CurrentCity", "Stockholm");
             
-            currentWeather = new WeatherViewModel(CurrentCity).Current;
+            currentWeather = new WeatherViewModel(CurrentCity).current;
            
             BindingContext = currentWeather;
 
@@ -37,7 +37,7 @@ namespace test
             base.OnAppearing();
             CurrentCity = Preferences.Get("CurrentCity", "Stockholm");
 
-            currentWeather = new WeatherViewModel(CurrentCity).Current;
+            currentWeather = new WeatherViewModel(CurrentCity).current;
 
             BindingContext = currentWeather;
 

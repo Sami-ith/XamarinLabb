@@ -41,4 +41,3 @@
 /Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test/obj/Debug/netstandard2.0/test.dll
 /Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test/obj/Debug/netstandard2.0/ref/test.dll
 /Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test/obj/Debug/netstandard2.0/test.pdb
-/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test/obj/Debug/netstandard2.0/test.csproj.Fody.CopyLocal.cache

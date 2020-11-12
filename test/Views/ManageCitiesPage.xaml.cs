@@ -9,7 +9,7 @@ namespace test.Views
 {
     public partial class ManageCitiesPage : ContentPage
     {
-        List<City> manageCitiesList;
+       
         public ManageCitiesPage()
         {
             InitializeComponent();
@@ -19,7 +19,7 @@ namespace test.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
-           
+            BindingContext = new ManageCitiesViewModel();
         }
         public void plusButtonClick(object sender, EventArgs e)
         {

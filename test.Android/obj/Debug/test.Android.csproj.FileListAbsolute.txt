@@ -488,4 +488,3 @@
 /Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
-/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.Android/obj/Debug/android/assets/PropertyChanged.dll

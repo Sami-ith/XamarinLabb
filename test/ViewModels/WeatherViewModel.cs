@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using PropertyChanged;
+
 using test.Models;
 using Xamarin.Essentials;
 
@@ -17,7 +17,7 @@ namespace test.ViewModels
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        WeatherData current;
+       public WeatherData current;
         public string CurrentCity { get; set; }
         
         public WeatherViewModel(string cityName)
@@ -27,37 +27,13 @@ namespace test.ViewModels
             //current = new WeatherData();
             //Task<WeatherData> task = Task.Run(GetData);
             //current = task.Result;
-            this.Current= new WeatherData();
+            current= new WeatherData();
             Task<WeatherData> task = Task.Run(GetData);
-            this.Current= task.Result;
+            current= task.Result;
             
 
         }
-        public WeatherData Current
-        {
-            set
-            {
-                if (current != value)
-                {
-                    current = value;
-
-                    if (PropertyChanged != null)
-                    {
-                        OnPropertyChanged("current");
-                    }
-                }
-
-            }
-            get
-            {
-                return current;
-
-            }
-        }
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+        
 
         public async Task<WeatherData> GetData()
         {

@@ -1,12 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jNK0tzbuDEXeYT+klQNc4vNqMtYEIMK920C/9dLjXNckK3yXMnuSJhoPjE4yi9Dma8J1EbXr+pHFjRYG0CBgPw==",
+  "dgSpecHash": "IkvKtjvWmu58uK+toHkx/vUB9I+qGhnViBojWhrIYDbsL7VoDdctx0CD/GRVr1bLtarZsHKpkvTJax/Ml0dDYQ==",
   "success": true,
   "projectFilePath": "/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test.iOS/test.iOS.csproj",
   "expectedPackageFiles": [
-    "/Users/samiehsadeghi/.nuget/packages/fody/6.3.0/fody.6.3.0.nupkg.sha512",
     "/Users/samiehsadeghi/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
-    "/Users/samiehsadeghi/.nuget/packages/propertychanged.fody/3.3.1/propertychanged.fody.3.3.1.nupkg.sha512",
     "/Users/samiehsadeghi/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
     "/Users/samiehsadeghi/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "/Users/samiehsadeghi/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",

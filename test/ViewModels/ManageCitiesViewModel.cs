@@ -18,31 +18,21 @@ namespace test.ViewModels
             Cities = new List<City>();
             var task = Task.Run(App.Database.GetItemsAsync);
             myList = task.Result;
+            
             foreach (ListItem c in myList)
             {
-                Cities.Add(new City { Name = c.City,
+                
+                Cities.Add(new City
+                {
+                    Name = c.City,
                     ImageUrl = "https://openweathermap.org/img/wn/10d.png",
-                    Temp = 12
+                    Temp = 12,
+                   
 
-                });
+                })  ;
 
             }
-            //Cities.Add(new City
-            //{
-            //    Name = "Göteborg",
-            //    ImageUrl = "https://openweathermap.org/img/wn/10d.png",
-            //    Temp = 12
-
-            //}); ;
-
-            //Cities.Add(new City
-            //{
-            //    Name = "Stockholm",
-            //    ImageUrl = "https://openweathermap.org/img/wn/10d.png",
-            //    Temp = 13
-
-            //});
-
+           
         }
         
         
