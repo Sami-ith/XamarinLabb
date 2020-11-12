@@ -38,6 +38,12 @@ namespace test.Views
             
             Application.Current.MainPage.Navigation.PopAsync(true);
         }
-        
+        public void OnDelete(object sender, EventArgs e)
+        {
+            var mi = ((MenuItem)sender);
+             DisplayAlert("Delete Context Action", mi.CommandParameter + " delete context action", "OK");
+            
+        }
+
     }
 }

@@ -11,6 +11,12 @@
     <ListView.ItemTemplate>
       <DataTemplate>
         <ViewCell>
+            <ViewCell.ContextActions>
+                
+                <MenuItem Clicked="OnDelete"
+                          CommandParameter="{Binding Name}"
+                          Text="Delete" IsDestructive="True" />
+           </ViewCell.ContextActions>
             <Grid Padding="10">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
