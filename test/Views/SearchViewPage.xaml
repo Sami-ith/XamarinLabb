@@ -13,6 +13,8 @@
         
         <ListView x:Name="searchResults"
                   HorizontalOptions="Fill"
-                  VerticalOptions="CenterAndExpand" />
+                  VerticalOptions="CenterAndExpand"
+                  ItemTapped="OnListViewItemTapped"
+                  ItemSelected="OnListViewItemSelected"/>
     </StackLayout>
 </ContentPage>

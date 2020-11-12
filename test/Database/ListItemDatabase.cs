@@ -14,6 +14,11 @@ namespace List
             return new SQLiteAsyncConnection(Constants.DatabasePath, Constants.Flags);
         });
 
+        internal Task GetNotesAsync()
+        {
+            throw new NotImplementedException();
+        }
+
         static SQLiteAsyncConnection Database => lazyInitializer.Value;
         static bool initialized = false;
 
@@ -41,7 +46,12 @@ namespace List
 
         public Task<List<ListItem>> GetItemsNotDoneAsync()
         {
-            return Database.QueryAsync<ListItem>("SELECT * FROM [ListItem] WHERE [Done] = 0");
+            return Database.QueryAsync<ListItem>("SELECT * FROM [ListItem]");
+        }
+
+        internal Task SaveItemAsync(string cname)
+        {
+            throw new NotImplementedException();
         }
 
         public Task<ListItem> GetItemAsync(int id)
@@ -67,6 +77,7 @@ namespace List
         }
     }
 }
+
 
 /*
 var saveButton = new Button { Text = "Save" };

@@ -9,12 +9,19 @@ namespace test.Views
 {
     public partial class ManageCitiesPage : ContentPage
     {
-        
+        List<City> manageCitiesList;
         public ManageCitiesPage()
         {
             InitializeComponent();
+            manageCitiesList = new ManageCitiesViewModel().Cities;
+            BindingContext = manageCitiesList;
+        }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            manageCitiesList = new ManageCitiesViewModel().Cities;
+            BindingContext = manageCitiesList;
 
-            BindingContext = new ManageCitiesViewModel();
         }
         public void plusButtonClick(object sender, EventArgs e)
         {
@@ -31,7 +38,7 @@ namespace test.Views
             City tappedItem = e.Item as City;
             string Cname = tappedItem.Name.ToString();
             Preferences.Set("CurrentCity",value:Cname);
-            //Navigation.PushAsync(new MainPage());
+            
             Application.Current.MainPage.Navigation.PopAsync(true);
         }
         
