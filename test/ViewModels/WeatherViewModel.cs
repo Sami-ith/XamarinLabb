@@ -24,27 +24,19 @@ namespace test.ViewModels
         {
             CurrentCity = cityName;
             _restService = new RestService();
-            //current = new WeatherData();
-            //Task<WeatherData> task = Task.Run(GetData);
-            //current = task.Result;
             current= new WeatherData();
             Task<WeatherData> task = Task.Run(GetData);
-            current= task.Result;
-            
-
+            current = task.Result;
         }
         
 
         public async Task<WeatherData> GetData()
         {
            
-           var weatherData = await _restService.GetWeatherDataAsync(GenerateRequestUri(Constants.OpenWeatherMapEndpoint));
-            weatherData.Weather[0].Icon = "https://openweathermap.org/img/w/" + weatherData.Weather[0].Icon + ".png";
-            
-           // current = weatherData;
-            return weatherData;
-            
-            
+                var weatherData = await _restService.GetWeatherDataAsync(GenerateRequestUri(Constants.OpenWeatherMapEndpoint));
+                weatherData.Weather[0].Icon = "https://openweathermap.org/img/w/" + weatherData.Weather[0].Icon + ".png";
+                return weatherData;
+          
         }
 
         string GenerateRequestUri(string endpoint)

@@ -9,12 +9,11 @@ namespace test.Views
 {
     public partial class ManageCitiesPage : ContentPage
     {
-       
+        List<City> cities;
         public ManageCitiesPage()
         {
             InitializeComponent();
             BindingContext = new ManageCitiesViewModel();
-            
         }
         protected override void OnAppearing()
         {

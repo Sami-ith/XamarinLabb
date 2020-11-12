@@ -40,6 +40,7 @@ namespace test
             currentWeather = new WeatherViewModel(CurrentCity).current;
 
             BindingContext = currentWeather;
+            
 
         }
 
