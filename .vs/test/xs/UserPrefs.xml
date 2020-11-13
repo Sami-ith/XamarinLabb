@@ -1,7 +1,7 @@
-﻿<Properties StartupConfiguration="{75109D4C-7C3D-44F4-B25C-35AAE16DBB97}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="test/Views/ManageCitiesPage.xaml.cs">
+﻿<Properties StartupConfiguration="{B6FAF954-7773-463D-A0ED-E9A4814F867F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="test/ViewModels/ManageCitiesViewModel.cs">
     <Files>
-      <File FileName="test/ViewModels/ManageCitiesViewModel.cs" Line="28" Column="55" />
+      <File FileName="test/ViewModels/ManageCitiesViewModel.cs" Line="40" Column="36" />
       <File FileName="test/ViewModels/WeatherViewModel.cs" />
       <File FileName="test/Models/ListItem.cs" />
       <File FileName="test/Views/MainPage.xaml.cs" />
@@ -17,7 +17,7 @@
       <File FileName="test/obj/Debug/netstandard2.0/Views/ManageCitiesPage.xaml.g.cs" />
       <File FileName="test/Views/MainPage.xaml" />
       <File FileName="test/ViewModels/SearchViewModel.cs" />
-      <File FileName="test/Views/ManageCitiesPage.xaml.cs" Line="24" Column="12" />
+      <File FileName="test/Views/ManageCitiesPage.xaml.cs" />
       <File FileName="../../../../../../../Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/Microsoft.Common.CurrentVersion.targets" />
       <File FileName="test/Models/WeatherData.cs" />
     </Files>
@@ -29,17 +29,12 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="Database" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="ManageCitiesViewModel.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="MainPage.xaml" expanded="True" />
-                <Node name="ManageCitiesPage.xaml" expanded="True">
-                  <Node name="ManageCitiesPage.xaml.cs" selected="True" />
-                </Node>
-                <Node name="SearchViewPage.xaml" expanded="True" />
               </Node>
-              <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="test.iOS" expanded="True" />
           </Node>

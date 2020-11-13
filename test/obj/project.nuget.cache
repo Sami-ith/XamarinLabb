@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7ko0JPIhlN5cwNIrcJqVSJ6K2ZnEAcWo7a4oGaaPhJ82iLpzBnhSQCocdETidQ3h+MbH117U3aF3Togq6inbiQ==",
+  "dgSpecHash": "rhyqU5lNScM3QYtg9filXnHeURFklzM5lSdUjc/rH8Pbv7IOo4gHJI8xVeG0/cMANSvjEqDcu2D+6NnsYlW9TQ==",
   "success": true,
   "projectFilePath": "/Users/samiehsadeghi/Documents/lia/playground/playground/XamarinLabb/test/test.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,7 @@
     "/Users/samiehsadeghi/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/samiehsadeghi/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "/Users/samiehsadeghi/.nuget/packages/xamarin.essentials/1.6.0-pre3/xamarin.essentials.1.6.0-pre3.nupkg.sha512",
-    "/Users/samiehsadeghi/.nuget/packages/xamarin.forms/4.8.0.1560/xamarin.forms.4.8.0.1560.nupkg.sha512"
+    "/Users/samiehsadeghi/.nuget/packages/xamarin.forms/4.8.0.1687/xamarin.forms.4.8.0.1687.nupkg.sha512"
   ],
   "logs": []
 }

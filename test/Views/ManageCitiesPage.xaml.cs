@@ -41,8 +41,8 @@ namespace test.Views
         public void OnDelete(object sender, EventArgs e)
         {
             var mi = ((MenuItem)sender);
-             DisplayAlert("Delete Context Action", mi.CommandParameter + " delete context action", "OK");
-            
+             DisplayAlert(""," Are you sure to want delete this item?", "OK");
+            OnAppearing();
         }
 
     }
